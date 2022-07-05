@@ -147,3 +147,37 @@ p {
     text-align: center;
     margin-top: 150px;
 }
+
+.footer {
+    display: flex;
+    width: fit-content;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.head,
+.para,
+.icon {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+}
+
+.head h1 {
+    font-size: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon i {
+    margin: 15px;
+}
