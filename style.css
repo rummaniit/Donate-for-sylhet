@@ -23,11 +23,13 @@ p {
 
 .btn {
     border: none;
-    padding: 16px 32px;
+    padding: 16px 40px;
     border-radius: 5px;
     background-color: rgba(255, 89, 89, 1);
     color: white;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .donate {
@@ -36,7 +38,8 @@ p {
 }
 
 .donate-heading,
-.donate-plan-heading {
+.donate-plan-heading,
+.get-updates {
     width: 50%;
     margin: 0 auto;
     text-align: center;
@@ -58,7 +61,12 @@ p {
     cursor: pointer;
 }
 
-input {
+#active {
+    border: 1px solid rgba(255, 89, 89, 1);
+    background-color: rgba(255, 238, 238, 1);
+}
+
+.input-amount input {
     padding: 20px;
     width: 1000px;
     border-top: none;
@@ -114,12 +122,24 @@ input {
 }
 
 .val h1 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .val h3 {
-    font-size: 20px;
+    font-size: 25px;
 
+}
+
+.subscribe {
+    background-color: antiquewhite;
+    padding: 15%;
+}
+
+.subscribe input {
+    width: 50%;
+    padding: 3%;
+    border-radius: 5px;
+    margin-right: -4px;
 }
 
 .summery {
