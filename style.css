@@ -35,10 +35,12 @@ p {
     text-align: center;
 }
 
-.donate-heading {
+.donate-heading,
+.donate-plan-heading {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 150px;
 }
 
 .donate-amounts {
@@ -69,4 +71,59 @@ input {
 .input-amount {
     margin-top: 50px;
     padding: 20px;
+}
+
+.donate-plans-descriptions {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.common {
+    padding: 30px 15px;
+    margin: 3px;
+}
+
+.individual-plan1 {
+    background-color: rgba(1, 16, 30, 0.521);
+}
+
+.individual-plan2 {
+    background-color: salmon;
+}
+
+.individual-plan3 {
+    background-color: rebeccapurple;
+}
+
+.total-donations {
+    padding: 3%;
+    box-shadow: 20px 20px 50px gray;
+    border-radius: 25px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.val {
+    font-weight: 900;
+}
+
+.val h1 {
+    font-size: 30px;
+}
+
+.val h3 {
+    font-size: 20px;
+
+}
+
+.summery {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
 }
