@@ -5,7 +5,6 @@ body {
 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 65px;
-    line-height: 79px;
 }
 
 p {
@@ -29,4 +28,45 @@ p {
     background-color: rgba(255, 89, 89, 1);
     color: white;
     cursor: pointer;
+}
+
+.donate {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.donate-heading {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-amounts {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.amount {
+    background-color: rgba(250, 250, 250, 1);
+    padding: 3%;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(112, 112, 112, 1);
+    cursor: pointer;
+}
+
+input {
+    padding: 20px;
+    width: 1000px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.input-amount {
+    margin-top: 50px;
+    padding: 20px;
 }
