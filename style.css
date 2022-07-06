@@ -32,6 +32,10 @@ p {
     font-weight: 700;
 }
 
+.btn:hover {
+    background-color: #00862D;
+}
+
 .donate {
     margin-top: 100px;
     text-align: center;
@@ -39,11 +43,23 @@ p {
 
 .donate-heading,
 .donate-plan-heading,
-.get-updates {
-    width: 50%;
+.get-updates,
+.gallery {
+    width: 60%;
     margin: 0 auto;
     text-align: center;
     margin-top: 150px;
+}
+
+.galleryleft {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.galleryleft img {
+    width: 50%;
+    margin: 5px;
+
 }
 
 .donate-amounts {
@@ -86,23 +102,29 @@ p {
     display: flex;
     justify-content: center;
     padding: 3%;
+    color: white;
 }
 
 .common {
     padding: 30px 15px;
     margin: 3px;
+    margin-top: 10px;
+}
+
+.common:hover {
+    margin-top: -5px;
 }
 
 .individual-plan1 {
-    background-color: rgba(1, 16, 30, 0.521);
+    background-color: #23B187;
 }
 
 .individual-plan2 {
-    background-color: salmon;
+    background-color: #00862D;
 }
 
 .individual-plan3 {
-    background-color: rebeccapurple;
+    background-color: #302C51;
 }
 
 .total-donations {
