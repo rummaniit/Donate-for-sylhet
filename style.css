@@ -18,7 +18,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding: 25px;
+    padding: 45px 70px;
 }
 
 .btn {
@@ -61,10 +61,11 @@ p {
     cursor: pointer;
 }
 
-#active {
+.amount:hover {
     border: 1px solid rgba(255, 89, 89, 1);
     background-color: rgba(255, 238, 238, 1);
 }
+
 
 .input-amount input {
     padding: 20px;
@@ -143,9 +144,13 @@ p {
 }
 
 .summery {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     margin-top: 150px;
+}
+
+.summery h1 {
+    font-size: 60px;
 }
 
 .footer {
@@ -157,6 +162,10 @@ p {
     color: white;
     background-color: black;
     text-align: center;
+}
+
+.orange {
+    color: orangered;
 }
 
 .head,
@@ -176,8 +185,12 @@ p {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: blue;
+    text-align: right;
+    margin-left: 15px;
 }
 
-.icon i {
-    margin: 15px;
+.icon img {
+    width: 40px;
+    margin: 10px;
 }
