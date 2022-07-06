@@ -12,6 +12,11 @@ p {
     font-size: 18px;
 }
 
+.orange {
+    color: orangered;
+}
+
+
 .top-banner {
     text-align: center;
     background-image: url(images/donation13.jpg);
@@ -51,17 +56,6 @@ p {
     margin-top: 150px;
 }
 
-.galleryleft {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.galleryleft img {
-    width: 50%;
-    margin: 5px;
-
-}
-
 .donate-amounts {
     display: flex;
     justify-content: space-evenly;
@@ -82,10 +76,9 @@ p {
     background-color: rgba(255, 238, 238, 1);
 }
 
-
 .input-amount input {
     padding: 20px;
-    width: 1000px;
+    width: 700px;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -98,21 +91,12 @@ p {
     padding: 20px;
 }
 
+
 .donate-plans-descriptions {
     display: flex;
     justify-content: center;
     padding: 3%;
     color: white;
-}
-
-.common {
-    padding: 30px 15px;
-    margin: 3px;
-    margin-top: 10px;
-}
-
-.common:hover {
-    margin-top: -5px;
 }
 
 .individual-plan1 {
@@ -125,6 +109,36 @@ p {
 
 .individual-plan3 {
     background-color: #302C51;
+}
+
+.common {
+    padding: 30px 15px;
+    margin: 3px;
+    margin-top: 10px;
+}
+
+.common:hover {
+    margin-top: -5px;
+}
+
+.galleryleft {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.galleryleft img {
+    width: 50%;
+    margin: 5px;
+}
+
+.summery {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.summery h1 {
+    font-size: 60px;
 }
 
 .total-donations {
@@ -140,15 +154,15 @@ p {
     text-align: center;
 }
 
-.val {
+.values {
     font-weight: 900;
 }
 
-.val h1 {
+.values h1 {
     font-size: 35px;
 }
 
-.val h3 {
+.values h3 {
     font-size: 25px;
 
 }
@@ -165,16 +179,6 @@ p {
     margin-right: -4px;
 }
 
-.summery {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 150px;
-}
-
-.summery h1 {
-    font-size: 60px;
-}
-
 .footer {
     display: flex;
     width: fit-content;
@@ -184,10 +188,6 @@ p {
     color: white;
     background-color: black;
     text-align: center;
-}
-
-.orange {
-    color: orangered;
 }
 
 .head,
